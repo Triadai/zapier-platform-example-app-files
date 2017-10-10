@@ -20,7 +20,7 @@
     "zapier-platform-core": "3.2.1"
   },
   "devDependencies": {
-    "mocha": "2.5.3",
+    "mocha": "3.5.3",
     "should": "11.2.1"
   }
 }

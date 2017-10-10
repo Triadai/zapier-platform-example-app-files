@@ -7,6 +7,10 @@ describe('hydrators', () => {
 
   describe('uploadFile', () => {
     it('should download files', (done) => {
+      if (!process.env || !process.env.ZAPIER_DEPLOY_KEY) {
+        this.skip();
+      }
+
       const bundle = {
         inputData: {
           fileId: 3,
